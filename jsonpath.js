@@ -4600,7 +4600,7 @@ if (fs.readFileSync) {
 module.exports = grammar;
 
 },{"./dict":2,"fs":8}],4:[function(require,module,exports){
-var aesprim = require('./aesprim');
+var aesprim = require('aesprim');
 var slice = require('./slice');
 var _evaluate = require('static-eval');
 var _uniq = require('underscore').uniq;
